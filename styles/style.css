@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+body
+{
+    background-color: #E9F0FF;
+    height: 100vh;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container
+{
+    background-color: white;
+    border-radius: 25px;
+
+    padding: 50px;
+}
+
+.produckt-image img
+{
+   width: 332.17px; 
+   height: 405px;
+
+   margin-bottom: 30px;
+}
+
+.produckt-name p
+{
+    font-family: 'Inter', sans-serif;
+    font-size: 27px;
+    font-weight: 500;
+    color: #363842
+}
+
+.produckt-name div
+{
+    width: 237px;
+    height: 35px;
+    
+}
+
+.produckt-price
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.old-price
+{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.old-price p
+{
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 500px;
+    color: #81859C;
+    text-decoration: line-through;
+}
+
+.old-price span
+{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+    color: #102B6B;
+    padding: 3px;
+
+    background-color: #E9F0FF;
+}
+
+.new-price
+{
+    font-family: sans-serif;
+    font-size: 47px;
+    font-weight: 600px;
+    color: #363842;
+
+}
